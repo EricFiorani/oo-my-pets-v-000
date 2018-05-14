@@ -20,6 +20,7 @@ class Owner
     }
     @name = name
     @@all << self
+    @@owner_count += 1
   end
 
   def self.species
