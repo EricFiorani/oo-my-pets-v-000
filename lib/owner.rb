@@ -64,9 +64,8 @@ class Owner
   end
 
   def sell_pets
-    if @pets.clear
-      self.pets.each {|pets| pets.mood = "nervous"}
-    end
+    self.pets.each {|pets| pets.mood = "nervous"}
+    pets.clear
   end
 
 
