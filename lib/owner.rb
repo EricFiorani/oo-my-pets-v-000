@@ -22,7 +22,6 @@ class Owner
 
   def self.species
     Owner.self = "human"
-    puts "I am a human"
   end
 
   def self.all
