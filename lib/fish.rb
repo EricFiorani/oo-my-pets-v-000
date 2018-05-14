@@ -6,4 +6,8 @@ class Fish
     @name = name
     @mood = mood
   end
+
+  def mood
+    @mood = nervous
+  end
 end
