@@ -15,6 +15,12 @@ class Owner
     @@all << self
   end
 
-  
+  def self.clear_all
+    if @@all.length >= 1
+      @@all.clear
+    end
+  end
+
+
 
 end
