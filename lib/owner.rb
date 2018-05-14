@@ -11,7 +11,11 @@ class Owner
   }
 
   def initialize(pets)
-    @pets = pets
+    @pets = pets = {
+      :fishes => [],
+      :cats => [],
+      :dogs => []
+    }
     @name = name
     @@all << self
   end
