@@ -6,11 +6,11 @@ class Owner
 
   @@count = 0
 
-  pets = {
-    :fishes => [],
-    :cats => [],
-    :dogs => []
-  }
+  # pets = {
+  #   :fishes => [],
+  #   :cats => [],
+  #   :dogs => []
+  # }
 
   def initialize(pets)
     @pets = pets = {
