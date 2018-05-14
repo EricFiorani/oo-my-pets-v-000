@@ -28,16 +28,5 @@ class Owner
     @@all
   end
 
-  def self.reset_all
-    if @@all.length >= 1
-      @@all.clear
-    end
-  end
-
-  def self.count
-    @@count
-  end
-
-
 
 end
