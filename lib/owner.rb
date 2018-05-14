@@ -11,6 +11,7 @@ class Owner
       :cats => [],
       :dogs => []
     }
+    @pets << self
     @name = name
     @@all << self
     @@count += 1
