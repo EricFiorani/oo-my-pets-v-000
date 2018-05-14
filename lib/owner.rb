@@ -36,7 +36,7 @@ class Owner
   end
 
   def self.reset_all
-    if @@all.length >= 1
+    if @@count.length >= 1
       @@all.clear
     end
   end
