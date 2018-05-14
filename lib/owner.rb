@@ -20,7 +20,6 @@ class Owner
     Owner.self = "human"
     puts "I am a human"
   end
-    
 
   def self.all
     @@all
