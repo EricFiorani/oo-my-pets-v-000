@@ -4,7 +4,6 @@ class Fish
   attr_writer :mood
   def initialize(name)
     @name = name
-    @mood = mood
   end
 
   def mood
