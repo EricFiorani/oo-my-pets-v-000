@@ -32,7 +32,7 @@ class Owner
     @@all
   end
 
-  def self.clear_all
+  def self.reset_all
     if @@all.length >= 1
       @@all.clear
     end
