@@ -5,7 +5,7 @@ class Owner
 
   @@all = []
 
-  @@count = @@all.length
+  @@count = 0
 
   def initialize(pets)
     @pets = pets = {
