@@ -2,7 +2,7 @@ class Owner
   # code goes here
   attr_accessor :pets
 
-  pets => {
+  pets =>{
     fishes: [],
     cats: [],
     dogs: []
