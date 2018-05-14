@@ -10,7 +10,7 @@ class Owner
     :dogs => []
   }
 
-  def initialize(pets, name)
+  def initialize(pets)
     @pets = pets
     @name = name
     @@all << self
