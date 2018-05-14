@@ -16,6 +16,12 @@ class Owner
     @@all << self
   end
 
+  def self.species
+    Owner.self = "human"
+    puts "I am a human"
+  end
+    
+
   def self.all
     @@all
   end
