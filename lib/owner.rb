@@ -13,7 +13,6 @@ class Owner
     }
     @pets << self
     @name = name
-    @@all << self
     @species = "human"
   end
 
