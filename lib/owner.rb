@@ -30,8 +30,8 @@ class Owner
   end
 
   def self.reset_all
-    if @@count.length >= 1
-      @@count.clear
+    if @@all.length >= 1
+      @@all.clear
     end
   end
 
