@@ -7,7 +7,7 @@ class Fish
     @mood
   end
 
-  def mood
+  def self.mood
     @mood = nervous
   end
 
