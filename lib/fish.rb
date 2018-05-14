@@ -8,8 +8,8 @@ class Fish
     @mood
   end
 
-  def self.mood
-    @mood = nervous
+  def mood
+    @mood
   end
 
 end
