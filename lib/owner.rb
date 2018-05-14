@@ -4,7 +4,7 @@ class Owner
 
   @@all = []
 
-  @@ount = 0
+  @@count = 0
 
   pets = {
     :fishes => [],
@@ -20,7 +20,7 @@ class Owner
     }
     @name = name
     @@all << self
-    @@owner_count += 1
+    @@count += 1
   end
 
   def self.species
