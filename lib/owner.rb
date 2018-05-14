@@ -52,9 +52,7 @@ class Owner
   end
 
   def walk_dogs
-    if Owner.walk_dogs
-      @mood = "happy"
-    end
+    self.pets[:dogs].map {|dog| dog.mood = "happy"}
   end
 
 
