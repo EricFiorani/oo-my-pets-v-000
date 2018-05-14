@@ -27,7 +27,7 @@ class Owner
     Owner.self = "human"
   end
 
-  def self.say_species
+  def say_species
     puts "I am a human"
   end
 
