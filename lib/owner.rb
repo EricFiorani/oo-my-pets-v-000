@@ -4,13 +4,7 @@ class Owner
 
   @@all = []
 
-  @@count = 0
-
-  # pets = {
-  #   :fishes => [],
-  #   :cats => [],
-  #   :dogs => []
-  # }
+  @@count = @@all.length
 
   def initialize(pets)
     @pets = pets = {
