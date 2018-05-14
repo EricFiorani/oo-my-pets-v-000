@@ -9,7 +9,7 @@ class Owner
   }
 
   def initialize(pets)
-    # @pets = pets => {fishes: [], cats: [], dogs: []}
+    @pets = pets
   end
 
 end
