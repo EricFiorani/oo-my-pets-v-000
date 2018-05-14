@@ -10,4 +10,5 @@ class Fish
   def mood
     @mood = nervous
   end
+  
 end
