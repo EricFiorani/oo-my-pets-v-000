@@ -41,7 +41,7 @@ class Owner
     end
   end
 
-  def owner_count
+  def count
     @@owner_count
   end
 
