@@ -70,6 +70,7 @@ class Owner
     end
     pets.clear
   end
+  end
 
 
 end
