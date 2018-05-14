@@ -12,6 +12,7 @@ class Owner
 
   def initialize(pets, name)
     @pets = pets
+    @name = name
     @@all << self
   end
 
