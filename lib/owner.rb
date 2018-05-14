@@ -12,7 +12,6 @@ class Owner
       :dogs => []
     }
     @pets << self
-    @name = name
     @species = "human"
   end
 
