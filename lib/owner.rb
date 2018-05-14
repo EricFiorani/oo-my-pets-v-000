@@ -19,7 +19,7 @@ class Owner
   end
 
   def self.species
-    Owner.self = "human"
+    return "human"
   end
 
   def say_species
