@@ -19,7 +19,7 @@ class Owner
       :dogs => []
     }
     @name = name
-    @@all << self
+    # @@all << self
     @@count += 1
   end
 
