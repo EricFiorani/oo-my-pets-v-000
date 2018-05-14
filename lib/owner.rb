@@ -4,7 +4,7 @@ class Owner
 
   @@all = []
 
-  @@owner_count = 0
+  @@ount = 0
 
   pets = {
     :fishes => [],
